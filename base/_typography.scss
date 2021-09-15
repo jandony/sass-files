@@ -15,7 +15,7 @@ h1,
     margin-bottom: 10px;
     display: table;
     font-family: 'Roboto';
-    color: $pn-dark-brown-2;
+    color: $black;
     /*hack to fix box model width border*/
     @media screen and (min-width: $break-desktopSmall) {
         @include fontsize(65px);
@@ -25,7 +25,7 @@ h1,
         display: block;
         height: 10px;
         width: 600px;
-        background-color: $fs-light-blue;
+        background-color: $black;
     }
 }
 
@@ -34,7 +34,7 @@ h2,
     @include fontsize(24px);
     line-height: 1.5;
     font-weight: 600;
-    color: $fs-light-blue;
+    color: $black;
     margin-bottom: 15px;
     text-transform: uppercase;
     font-family: 'Roboto';
@@ -82,7 +82,7 @@ em {
 
 a {
     text-decoration: none;
-    color: $blue-4;
+    color: $black;
     &:hover,
     &:active {
         text-decoration: underline;
@@ -106,7 +106,7 @@ ul {
 
 p {
     margin-bottom: 1rem;
-    color: $grey-2;
+    color: $black;
     line-height: 1.65;
     max-width: 900px;
     &.large {
@@ -133,7 +133,7 @@ ul {
             width: 7px;
             height: 7px;
             border-radius: 50%;
-            background-color: $blue;
+            background-color: $black;
             margin-right: 9px;
             position: absolute;
             top: 10px;
@@ -166,7 +166,7 @@ ol {
         &:before {
             content: counters(item, ")") ") ";
             counter-increment: item;
-            color: $blue;
+            color: $black;
             @include fontsize(16px);
             display: inline-block;
             padding-right: 10px;
